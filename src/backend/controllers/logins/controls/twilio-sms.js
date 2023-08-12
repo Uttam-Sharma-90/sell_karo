@@ -1,6 +1,6 @@
 
 const{TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN} = process.env;
-const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
+// const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 /**
  * send OTP
