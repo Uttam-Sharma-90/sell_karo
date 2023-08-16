@@ -1,5 +1,5 @@
-const{adminlogin} = require('./controls/adminLogin');
+// const{sendOTP} = require('./controls/twilio-sms');
 const{userlogin} = require('./controls/userLogin');
-const{sendOTP} = require('./controls/twilio-sms')
+const{register} = require('./controls/registerUser');
 
-module.exports = {adminlogin, userlogin, sendOTP};
+module.exports = {userlogin, register}; 
