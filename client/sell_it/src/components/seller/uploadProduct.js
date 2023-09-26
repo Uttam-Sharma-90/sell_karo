@@ -24,6 +24,8 @@ function ProdUpload (){
             console.log('error', err);
         }
     }
+    // custom doc page 
+    document.title = 'product uploading';
 
     return(
         <div className='sellerBar'>
